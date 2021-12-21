@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+	background: #14274E;
+	height:84px;
+
+}
+
+.hom{
+	position: absolute;
+	top: 3px;
+	width: 5%;
+}
+.scr{
+	position: absolute;
+	width: 400px;
+	left: 260px;
+}
+.title{
+	position: relative;
+	bottom: 9px;
+	left: 50px;
+	text-align: center;
+	font-size: 40px;
+	color:#A9A5A9 ;
+}
+.verti{
+	writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    color: #14274E;
+    font-size: 65px;
+
+}
+
+.vo{
+	margin-left: 30px;
+	position: relative;
+	top: 25px;
+	font-size: 22px;
+	text-decoration: none;
+	color:#A9A5A9 ;
+}
+.al{
+	position: relative;
+	left: 23px;
+}
+ul li {
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	position: relative;
+	top: 25px;
+	left: 1px;
+	 	line-height: 20px;
+}
+.cont{
+  margin: auto;
+  max-width: 1100%;
+  padding: 0 20px;
+  overflow: none;
+}
+.dt{
+	position: relative;
+	left: 10px;
+	top: 5px;
+}
+.dt1{
+	position: relative;
+	left: 35px;
+	top: 5px;
+}
+.al{
+	position: relative;
+	top:15px;
+}
+.al1{
+	position: relative;
+	top:15px;
+	left: 47px;
+}
+header{
+	width: 100%;
+}
+.cad{
+	position: relative;
+	top: 5px;
+}
+
+.card{
+	position: absolute;
+	left: 10%;
+	background: #394867;
+	margin-top:50px ;
+	width: 270px;
+	height: 23em;
+	border-radius: 5px;
+
+}
+ 
+ .text{
+ 	margin-top: 450px ;
+ 	line-height: 25px;
+
+  
+  
+ }
+ .his{
+ 	position: relative;
+ 	left: 40%;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ 	display: inline-block;
+
+ }
+
+ .tx{
+ 	margin-bottom: 10px;
+ }
+ .vide{
+ margin-top: 30px;
+ width: 100%;
+
+
+ }
+ .fut{
+ 		background: #14274E;
+	 
+	margin-top: 80px;
+	box-sizing: border-box;
+ 
+     
+ }
+ .ut{
+ 	width: 60px;
+ 	position: relative;
+ bottom: 2px;
+ 	left: 25px;
+ }
+ .utele{
+ 	position: relative;
+ 	bottom: 20px;
+ 	left: 30px;
+ 	display: inline-block;
+
+ }
+ .ec{
+ 	position: relative;
+ 	left: 80%;
+ 	width: 60px;
+ top: 0em;
+
+ }
+ .ecd{
+display: inline-block;
+ 	position: absolute;
+ 	left: 53%;
+ 	bottom: 20px;
+ }
+ @media screen and (max-width: 600px){
+	.title{
+		font-size: 25px;
+	}
+	 
+}
+ @media screen and (max-width: 900px){
+	.ec{
+
+  left: 60%;
+	
+	}
+	 
+}
+@media screen and (max-width: 400px){
+	.ec{
+		
+  left: 20%;
+	
+	}
+	 
+}
+@media screen and (max-width: 800px){
+	.vide iframe{
+ width: 450px;
+ height: 300px;
+	
+	}
+	 
+}
+@media screen and (max-width: 500px){
+	.vide iframe{
+ width: 350px;
+ height: 250px;
+	
+	}
+	 
+}
+@media screen and (max-width: 800px){
+	header .scr{
+ width: 300px;
+
+	}
+	 
+}
+@media screen and (max-width: 650px){
+	header .scr{
+ width: 200px;
+
+
+	}
+	 
+}
+@media screen and (max-width: 650px){
+	header .card{
+ right: 5%;
+ width: 35%;
+ height: 50%;
+ 
+	}
+	header .card .dt{
+		font-size: 15px;
+	}
+	header .card .al{
+		width: 100px;
+		left: 20%;
+	}
+	 header .card ul{
+	 	font-size: 15px;
+	 	line-height: 25px;
+
+	 }
+}
+@media screen and (max-width: 600px){
+.verti{
+ left: 80%;
+ font-size: 30px;
+ top: 45%;
+ 
+	}
+	 
+}@media screen and (max-width: 400px){
+	.title{
+		font-size: 30px;
+	}
+	 
+}
+
+
+
+
+ 
+	 
+	 
+	 
